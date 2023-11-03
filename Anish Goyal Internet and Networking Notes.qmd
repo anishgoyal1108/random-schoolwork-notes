@@ -1,0 +1,72 @@
+---
+title: "Internet and Networking Notes #2"
+format: pdf
+toc: true
+---
+## Anish Goyal \ Schepens \ Period 1 \ 01/10/2023{.unnumbered .unlisted} 
+
+## Types of Networks
+### LAN (Local Area Network)
+- Small scale network topology typically only containing one router
+- Used for small businesses, homes, and schools
+
+### WAN (Wide Area Network)
+- Composed of LANs connected together wirelessly via routers
+- Used for wide-scale networks, such as towns or school systems
+
+## Tracing packets
+### Traceroute
+- You can see all of the "hops" that a packet takes to get to its destination using traceroute
+- This includes the IP address of each router that the packet passes through and the time it takes for the packet to get to each router
+
+## The Internet
+### Internet Protocol (IP)
+- IP is the protocol that allows computers to communicate with each other
+- All packets must meet the IP protocol in order to be sent over the internet
+    - For example, there is a limit to the size and number of packages you can send at once
+
+## Types of Protocols in Packets
+### IP Packets
+- IP packets consist of an IP header that contains metadata about the packet and the data that the packet is carrying
+- They also have a data payload containing the data that the packet is carrying
+- Because IP packets are barebones by themselves, we made TCP and UDP to add more functionality to them
+
+### UDP Packets (User Datagram Protocol)
+- UDP packets are typically used for applications that require low latency and high bandwidth
+- They consist of a UDP header containing metadata and the data payload
+    - The UDP header contains the source and destination ports, the length of the packet, and the checksum
+    - The checksum is used to verify that the packet has not been corrupted
+- There is no guarantee that UDP packets will arrive at their destination, and they are not guaranteed to arrive in order
+- UDP packets are typically used for streaming which does not require a constant connection
+
+### TCP Packets (Transmission Control Protocol)
+- TCP packets are typically used for applications that require a constant connection
+- They consist of a TCP header containing metadata and the data payload
+    - The TCP header contains the source and destination ports, the sequence number, the acknowledgement number, the length of the packet, and the checksum
+    - The checksum is used to verify that the packet has not been corrupted
+    - The sequence number is used to keep track of the order of the packets
+    - The acknowledgement number is used to acknowledge the receipt of a packet
+    - This is known as the "three way handshake"
+- TCP packets are guaranteed to arrive at their destination and they are guaranteed to arrive in order
+
+## Domains
+### Domain Name System (DNS)
+- The Internet has a special way to map IP addresses to domain names, which are easier for people to remember
+
+### Domain Structure
+- Top Level Domains are the highest level of domains
+    - For example, .com, .org, .edu, .gov, .net,
+- Second Level Domains are the second highest level of domains, containing the name of the organization
+    - For example, google.com, microsoft.com, apple.com, amazon.com, facebook.com
+- Third Level Domains are the third highest level of domains, containing the name of the website and a subdomain of the parent
+    - For example, drive.google.com, docs.microsoft.com, support.apple.com
+
+## The OSI (Open System Interconnection) Model
+- A conceptual framework for compartmentalizing all of the different network processes and protocols
+- The physical layer is all the physical components that make up the network and the data that is sent over cables (bits)
+- The data link layer is the layer that is responsible for sending data over the physical layer
+- The network layer is the layer that is responsible for sending data over the data link layer and routing data to the correct destination
+- The transport layer consists of protocols that are responsible for sending data over the network layer such as TCP and UDP
+- The session layer is responsible for establishing and maintaining connections between applications known as a "session"
+- The presentation layer is responsible for converting data from one format to another
+- The application layer is the layer that is responsible for sending data over the presentation layer and is the layer that applications interact with

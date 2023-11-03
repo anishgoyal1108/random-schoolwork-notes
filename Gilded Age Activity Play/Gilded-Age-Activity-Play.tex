@@ -1,0 +1,218 @@
+% [FILENAME]
+% Author: [AUTHOR]
+% Created: [DATE]
+% Updated: [DATE]
+% Description: [DESCRIPTION]
+
+% templateDescription: LaTeX Theatre Script Document
+
+% This version is from 2021 07 20
+
+% This file can be found at https://husseinesmail.com/guides/all/
+
+% Description of THIS file: This is a LaTeX (pronounced `Lah-tech') template 
+%	document for a theatre performance script. I made this template for the 
+%	following reasons:
+%   - If a recording of said show has to be captioned, it's faster to copy and 
+%		paste from this file or the PDF it generates
+%   - If this is read on a computer screen, it has a navigable table of 
+%		contents to get to scenes faster
+%   - If this is read on a computer screen, text is searchable compared to 
+%		scans or a photocopy
+%   - If this is printed and in a duotang, you can be sure that no text will be 
+%		hidden behind the binding (or no text is diagonal for that matter)
+
+% What is LaTeX? definition from https://www.latex-project.org/about
+% LaTeX is a document preparation system for high-quality typesetting. It is 
+% most often used for medium-to-large technical or scientific documents but it 
+% can be used for almost any form of publishing.
+
+% Why use LaTeX instead of Microsoft Word?
+% 1. You don't have to indent text manually, LaTeX can do it by itself when you 
+%		tell it to.
+% 2. LaTeX doesn't require a Microsoft Office licence to use. It's free for 
+%		everyone (and part of the Free Open Source Software movement)!
+% 3. If you have a table of contents with numbered sections and you add another 
+%		one in the middle, everything is renumbered automatically (acts and 
+%		scenes in this case).
+% 4. (The reason why it got me into it) It can be typed in any text editor 
+%		(though I recommend using VSCode with the "LaTeX Workshop" extension 
+%		by James Yu).
+
+% This document is formatted so that you can follow along with these comments 
+% (starting with a `%') so you know what's happening. You may notice that the 
+% lines in this file are not exceeding 80 characters. This is just my 
+% preference, and is not at all required by LaTeX.
+
+% Here is the variables section where you can easily change what parameters are 
+% used (title, author, date typed/written, etc.)
+
+% =========================== Variables ===========================
+\newcommand{\myTitle}{Henry Clay Frick vs. The Homestead Strikers}      % Title of show
+\newcommand{\myAuthor}{Anish Goyal, Brian Kim, Luc Nguyen, \\ Saumya Palipudi, Chameli Tissera}         % Author of the show
+\newcommand{\mySubject}{PDF Subject Here}   % Used for Metadata
+\newcommand{\myKeywords}{PDF Keywords Here} % Separated by comma
+\newcommand{\myDate}{January 26, 2023}     % Written or typed date
+% =========================== Variables ===========================
+
+% You don't need to worry about this ``Configurations'' section. This is where 
+% most of the variable values are actually implemented (setting the title, 
+% author, date typed/written, etc.)
+
+% ======================== Configurations ========================
+\documentclass{article}
+\usepackage{hyperref}       % Used for adding PDF metadata
+\usepackage{multirow}       % Multiple rows/columns in table
+\usepackage{longtable}      % Tables that can go past 1 page
+\usepackage{fancyhdr}       % Used for page numbers on RS
+\setlength\parindent{0pt}   % Paragraph indent to 0
+\pagestyle{fancy}           % Turn on the style
+\fancyhead{}                % Clear the header and footer
+\fancyfoot{}
+\fancyfoot[R]{\thepage}     % Set RS of footer to page num
+\title{\myTitle}            % Title  = stored variable
+\author{\myAuthor}          % Author = stored variable
+\date{\myDate}              % Date   = stored variable
+\hypersetup{colorlinks=false, 
+	pdfborder={0 0 0}, 
+	pdftitle={\myTitle}, 
+	pdfauthor={\myAuthor}, 
+	pdfsubject={\mySubject}, 
+	pdfkeywords={\myKeywords}
+}
+% PDF metadata
+% ======================== Configurations ========================
+
+% These following commands are what you can use when typing lines so you don't 
+% need to know too much of how LaTeX works. If at any point you have questions 
+% about how to do something in LaTeX, please don't hesitate to email me at 
+% HusseinEsmailContact@gmail.com
+
+% Descriptions of these shortcuts:
+% \tab -> Used for stage directions for specific characters
+% \comment -> If you need to write a multi-line comment here
+% \newAct -> Ex. \newAct{Act Number}{Act Name}
+% \newScene -> Ex. \newScene{Scene Number}{Scene Name}
+% \newLine -> Each time a character has a line.
+%       Ex. \newLine{Character Name}{Character's line}
+% \newLineMC -> New line for multiple characters
+%       This is different than \newLine{}{} because the lines 
+%       come on the next line, or else the first column would be
+%       too wide.
+% \newStageDirection -> This is a stage direction 
+%       Multiple paragraphs require this command consecutively.
+% newStageDirectionDirected -> Stage direction for a specific person
+%       Ex. \newStageDirectionDirected{Character Name}{Direction}
+% \newPageDisplay -> Display "Page #" instead of actually creating
+%       a new page. This is used if you don't want page breaks. This
+%       will also show up on the Table of Contents
+
+% ======================= Shortcut Commands =======================
+\newcommand{\tab}[1][1cm]{\hspace*{#1}}
+\newcommand{\comment}[1]{}  % Multiline comments - does not show in PDF
+\newcommand{\newAct}[2]{
+	\section*{Act #1: #2} 
+	\addcontentsline{toc}{section}{\protect\numberline{}Act #1: #2}
+}							% Act header
+\newcommand{\newScene}[2]{
+	\subsection*{Scene #1: #2} 
+	\addcontentsline{toc}{subsection}{\protect\numberline{}Scene #1: #2}
+}							% Scene with only number
+\newcommand{\newLine}[2]{\def\thisName{#1}\ifx\thisName\lastName\else\textbf{\uppercase{#1}}\fi\gdef\lastName{#1}&#2\\}
+\newcommand{\newLineMC}[2]{\multicolumn{2}{l}{\textbf{\uppercase{#1}}} \\ & #2 \\} % newLine for multiple characters
+\newcommand{\newStageDirection}[1]{& \textit{#1} \\ \\} % Stage direction
+\newcommand{\newPageDisplay}[1]{--- & \textbf{\textit{Page #1}} \addcontentsline{toc}{subsubsection}{\protect\numberline{}Page #1}\\}
+% ======================= Shortcut Commands =======================
+
+\begin{document}        % Official beginning of the document. 
+\pagenumbering{roman}   % Use roman numbers before the start of the script so 
+						% that page numbers are the same as the real script
+\maketitle              % Make title page
+\newpage                % Insert a page break
+\tableofcontents        % Makes TOC
+\newpage                % Insert a page break
+\pagenumbering{arabic}  % Brings the normal numbers back
+
+% ============================ Example ============================
+\newAct{1}{The Steel Factory}
+\newScene{1}{Steel Factory Background}
+\begin{longtable}{l p{\textwidth}}  % Table start
+    \newStageDirection{FRICK is a “robber baron." Enter LABORERS 1, 2, and 3 in the background containing the steel factory.}
+    \newLine{Laborer 1}{Man, I hate this steel factory. I hate our boss, Henry Frick, even more.}
+    \newLine{Laborer 2}{Yeah! We have low wages, long hours, and horrible working conditions. How am I supposed to refine steel with these tools?}
+    \newLine{Laborer 1}{He makes us work 12 to 12! OMG when can we get rid of him?}
+    \newLine{Laborer 3}{I can’t believe he evicted old Granny Barbara from her company house too!}
+    \newLine{Laborer 2}{Yeah, and our families have been suffering without food for several days.}
+	\newLine{Laborer 1}{Shush! He's coming!}
+	\newLine{Laborer 3}{Who? Oh, Frick.}
+    \newStageDirection{FRICK enters the factory.}
+	\newLine{Frick}{Hello my filthy laborers.}
+    \newLine{Laborers}{Hello, Mr. Frick. \textit{(annoyed expression)}}
+	\newLine{Frick}{\uppercase{Did I hear you complaining about me? Be careful or I will fire you! Now get back to work!}}
+    \newLine{Laborers}{Okay Mr. Frick.}
+\end{longtable}
+\newpage
+\newAct{2}{Pinkertons vs Laborers }
+\newScene{1}{Night Background}
+\begin{longtable}{l p{\textwidth}}  % Table start
+	\newStageDirection{Enter LABORERS 1, 2, and 3 in the background containing the night background.}
+    \newLine{Laborer 1}{Hey, I'm tired of this. Let's call a strike!}
+    \newLine{Laborer 2}{Why not? We have nothing to lose! I'm sick of this too!}
+    \newLine{Laborer 3}{I want to see the end of him!}
+	\newStageDirection{LABORERS stop working and put down their shovels. Enter FRICK.}
+	\newLine{Frick}{Hey! \textit{(towards LABORERS)} What are you doing? I am giving you to the count of 5 to get back to work! 5... 4... 3... 2... 1! \uppercase{Fine. I'm calling the Pinkertons.} \textit{(dials the PINKERTONS)} \uppercase{Hello, I need the deluxe Pinkerton package.}}
+    \newLine{The Pinkertons}{At your service sir, I'll get you three hundred of my men.}
+	\newStageDirection{THE PINKERTONS enter the factory.}
+	\newLine{The Pinkertons}{\uppercase{Step away from Mr. Frick at once!}}
+	\newStageDirection{A fight breaks out between the Pinkertons and the Laborers. Laborers crumple up their “laborer” signs and throw them at Frick one by one. Pinkerton steps in the way and deflects paper balls. Pinkerton throws one paper ball back which hits Laborer 3. Laborer 3 dies.}
+	\newLine{Laborer 1}{Frick! How could you?}
+	\newStageDirection{THE PINKERTONS hand the `L` sign to either one of the living laborers.}
+	\newLine{The Pinkertons}{\textit{(holding up an L)} Take this L, laborers.}
+\end{longtable}
+\newpage
+\newAct{3}{Frick's Downfall}
+\newScene{1}{Steel Factory Background}
+\begin{longtable}{l p{\textwidth}}  % Table start
+	\newStageDirection{Enter LABORERS 1 and 2 in the background containing the steel factory.}
+    \newLine{Laborer 2}{Man, what a devastating strike. I am so sad.}
+    \newLine{Laborer 1}{Yeah, let's go get ice cream.}
+\end{longtable}
+\newScene{2}{Ice Cream Shop Background}
+\begin{longtable}{l p{\textwidth}}  % Table start
+	\newStageDirection{Enter LABORERS 1 and 2 and BERKMAN in the background containing the ice cream shop.}
+    \newLine{Berkman}{Hey, what can I get for you guys?}
+    \newLine{Laborer 2}{How about ice cream for laborers who just lost a friend during a strike?}
+    \newLine{Berkman}{What strike??}
+    \newLine{Laborer 1}{We plotted a strike against our harsh and unfair boss, Mr. Frick.}
+	\newLine{Laborer 2}{We lost good people during the strike.}
+	\newLine{Berkman}{That's horrible! Let me take care of this.}
+	\newStageDirection{The LABORERS leave the ice cream shop with BERKMAN.}
+\end{longtable}
+\newpage
+\newScene{3}{Frick's Office Background}
+\begin{longtable}{l p{\textwidth}}  % Table start
+	\newStageDirection{Enter LABORERS 1 and 2, BERKMAN, the SHERIFF, and FRICK in the background containing the office. BERKMAN walks up to FRICK.}
+    \newLine{Berkman}{Frick, what's all the talk that I'm hearing about?}
+    \newLine{Frick}{About the strike?}
+    \newLine{Berkman}{Yeah, I heard that you brought Pinkerton to the strike and killed the laborers.}
+    \newLine{Frick}{I did what had to be done to get my workers in line!}
+	\newLine{Berkman}{Well, this is what has to be done to bring justice.}
+	\newStageDirection{BERKMAN shoots FRICK on his shoulder with his first shot and neck with his second shot before he gets brought down by the SHERIFF. FRICK falls to the ground.}
+	\newLine{Sheriff}{Mr. Frick! Are you alright? I’m sorry I wasn’t able to stop the shot in time! I’ll take care of him right now!}
+	\newStageDirection{The SHERIFF aims his firearm at BERKMAN.}
+	\newLine{Frick}{\textit{(coughing)} Please don’t kill this man. I understand where he is coming from, and he doesn’t deserve to die. I should also be able to survive these wounds.}
+	\newLine{Sheriff}{Then I will take this man to prison!}
+\end{longtable}
+\newScene{4}{Prison Background}
+\begin{longtable}{l p{\textwidth}}  % Table start
+\newStageDirection{Enter BERKMAN and the SHERIFF in the background containing the prison. BERKMAN is serving his time for attempted murder.}
+	\newLine{Sheriff}{You're going away for a long, long time.}
+	\newLine{Berkman}{Those laborers are going to die if they keep working for Frick!}
+	\newLine{Sheriff}{Why should I care? Frick pays well... to me! \textit{(laughs and walks away)}}
+\end{longtable}
+\newScene{5}{Money Background}
+\begin{longtable}{l p{\textwidth}}  % Table start
+\newStageDirection{Enter FRICK in the background containing the money.}
+	\newLine{Frick}{I may be handicapped for the time being, but nothing matters as long as I have my money and my laborers to keep working for me! \textit{(basking in pile of money)}}
+\end{longtable}
+\end{document} % Official end of the document. 

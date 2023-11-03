@@ -1,0 +1,403 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{vice2023}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{VICE}
+      \field{month}{1}
+      \field{title}{AI writing tools like CHATGPT are the future of Learning; No, it's not cheating}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.vice.com/en/article/xgyjm4/ai-writing-tools-like-chatgpt-are-the-future-of-learning-and-no-its-not-cheating
+      \endverb
+      \verb{url}
+      \verb https://www.vice.com/en/article/xgyjm4/ai-writing-tools-like-chatgpt-are-the-future-of-learning-and-no-its-not-cheating
+      \endverb
+    \endentry
+    \entry{idaho2022}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b2cbb100201caf279f3ae975499db3b6}{%
+           family={Flandrou},
+           familyi={F\bibinitperiod},
+           given={Carly},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b2cbb100201caf279f3ae975499db3b6}
+      \strng{fullhash}{b2cbb100201caf279f3ae975499db3b6}
+      \strng{bibnamehash}{b2cbb100201caf279f3ae975499db3b6}
+      \strng{authorbibnamehash}{b2cbb100201caf279f3ae975499db3b6}
+      \strng{authornamehash}{b2cbb100201caf279f3ae975499db3b6}
+      \strng{authorfullhash}{b2cbb100201caf279f3ae975499db3b6}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Idaho Education News}
+      \field{month}{1}
+      \field{title}{CHATGPT: Is it a valuable communication tool or a way to cheat?}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.idahoednews.org/news/educators-are-abuzz-about-chatgpt-ai-that-writes-like-a-person/
+      \endverb
+      \verb{url}
+      \verb https://www.idahoednews.org/news/educators-are-abuzz-about-chatgpt-ai-that-writes-like-a-person/
+      \endverb
+    \endentry
+    \entry{johnson2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b41bfb5d6c070d841a6db3dddae11da2}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Arianna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Forbes Magazine}%
+      }
+      \strng{namehash}{b41bfb5d6c070d841a6db3dddae11da2}
+      \strng{fullhash}{b41bfb5d6c070d841a6db3dddae11da2}
+      \strng{bibnamehash}{b41bfb5d6c070d841a6db3dddae11da2}
+      \strng{authorbibnamehash}{b41bfb5d6c070d841a6db3dddae11da2}
+      \strng{authornamehash}{b41bfb5d6c070d841a6db3dddae11da2}
+      \strng{authorfullhash}{b41bfb5d6c070d841a6db3dddae11da2}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Forbes}
+      \field{month}{1}
+      \field{title}{Chatgpt in schools: Here's where it's banned-and how it could potentially help students}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.forbes.com/sites/ariannajohnson/2023/01/18/chatgpt-in-schools-heres-where-its-banned-and-how-it-could-potentially-help-students
+      \endverb
+      \verb{url}
+      \verb https://www.forbes.com/sites/ariannajohnson/2023/01/18/chatgpt-in-schools-heres-where-its-banned-and-how-it-could-potentially-help-students
+      \endverb
+    \endentry
+    \entry{watermark2023}{misc}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=b16ba5c0c878b4814ffa8f48c6a75351}{%
+           family={Kirchenbauer},
+           familyi={K\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2a6fb7ce325e06d63c45f7a73a65438}{%
+           family={Geiping},
+           familyi={G\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=173faddd012890ed5bc9aa2d327d9df9}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Yuxin},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85053e14c4a72772970b91a572b9b9c1}{%
+           family={Katz},
+           familyi={K\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0487f51f12e1650c1ecbe85c3d103eeb}{%
+           family={Miers},
+           familyi={M\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b1fea9d27f10122cd27336b3dc68ea7}{%
+           family={Goldstein},
+           familyi={G\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{23f7998c3bc2b14602965aef4a639c91}
+      \strng{fullhash}{67f91da75ff16ea76274aedcc299ef62}
+      \strng{bibnamehash}{67f91da75ff16ea76274aedcc299ef62}
+      \strng{authorbibnamehash}{67f91da75ff16ea76274aedcc299ef62}
+      \strng{authornamehash}{23f7998c3bc2b14602965aef4a639c91}
+      \strng{authorfullhash}{67f91da75ff16ea76274aedcc299ef62}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{A Watermark for Large Language Models}
+      \field{month}{1}
+      \field{title}{A watermark for large language models}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb http://export.arxiv.org/abs/2301.10226v1
+      \endverb
+      \verb{url}
+      \verb http://export.arxiv.org/abs/2301.10226v1
+      \endverb
+    \endentry
+    \entry{roose2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=037398d2bbeb1d0726d6d94a2e969100}{%
+           family={Roose},
+           familyi={R\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The New York Times}%
+      }
+      \strng{namehash}{037398d2bbeb1d0726d6d94a2e969100}
+      \strng{fullhash}{037398d2bbeb1d0726d6d94a2e969100}
+      \strng{bibnamehash}{037398d2bbeb1d0726d6d94a2e969100}
+      \strng{authorbibnamehash}{037398d2bbeb1d0726d6d94a2e969100}
+      \strng{authornamehash}{037398d2bbeb1d0726d6d94a2e969100}
+      \strng{authorfullhash}{037398d2bbeb1d0726d6d94a2e969100}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The New York Times}
+      \field{month}{1}
+      \field{title}{Don't ban chatgpt in schools. teach with it.}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.nytimes.com/2023/01/12/technology/chatgpt-schools-teachers.html
+      \endverb
+      \verb{url}
+      \verb https://www.nytimes.com/2023/01/12/technology/chatgpt-schools-teachers.html
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{vice2023}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{VICE}
+      \field{month}{1}
+      \field{title}{AI writing tools like CHATGPT are the future of Learning; No, it's not cheating}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.vice.com/en/article/xgyjm4/ai-writing-tools-like-chatgpt-are-the-future-of-learning-and-no-its-not-cheating
+      \endverb
+      \verb{url}
+      \verb https://www.vice.com/en/article/xgyjm4/ai-writing-tools-like-chatgpt-are-the-future-of-learning-and-no-its-not-cheating
+      \endverb
+    \endentry
+    \entry{idaho2022}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b2cbb100201caf279f3ae975499db3b6}{%
+           family={Flandrou},
+           familyi={F\bibinitperiod},
+           given={Carly},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b2cbb100201caf279f3ae975499db3b6}
+      \strng{fullhash}{b2cbb100201caf279f3ae975499db3b6}
+      \strng{bibnamehash}{b2cbb100201caf279f3ae975499db3b6}
+      \strng{authorbibnamehash}{b2cbb100201caf279f3ae975499db3b6}
+      \strng{authornamehash}{b2cbb100201caf279f3ae975499db3b6}
+      \strng{authorfullhash}{b2cbb100201caf279f3ae975499db3b6}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Idaho Education News}
+      \field{month}{1}
+      \field{title}{CHATGPT: Is it a valuable communication tool or a way to cheat?}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.idahoednews.org/news/educators-are-abuzz-about-chatgpt-ai-that-writes-like-a-person/
+      \endverb
+      \verb{url}
+      \verb https://www.idahoednews.org/news/educators-are-abuzz-about-chatgpt-ai-that-writes-like-a-person/
+      \endverb
+    \endentry
+    \entry{johnson2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b41bfb5d6c070d841a6db3dddae11da2}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Arianna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Forbes Magazine}%
+      }
+      \strng{namehash}{b41bfb5d6c070d841a6db3dddae11da2}
+      \strng{fullhash}{b41bfb5d6c070d841a6db3dddae11da2}
+      \strng{bibnamehash}{b41bfb5d6c070d841a6db3dddae11da2}
+      \strng{authorbibnamehash}{b41bfb5d6c070d841a6db3dddae11da2}
+      \strng{authornamehash}{b41bfb5d6c070d841a6db3dddae11da2}
+      \strng{authorfullhash}{b41bfb5d6c070d841a6db3dddae11da2}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Forbes}
+      \field{month}{1}
+      \field{title}{Chatgpt in schools: Here's where it's banned-and how it could potentially help students}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.forbes.com/sites/ariannajohnson/2023/01/18/chatgpt-in-schools-heres-where-its-banned-and-how-it-could-potentially-help-students
+      \endverb
+      \verb{url}
+      \verb https://www.forbes.com/sites/ariannajohnson/2023/01/18/chatgpt-in-schools-heres-where-its-banned-and-how-it-could-potentially-help-students
+      \endverb
+    \endentry
+    \entry{watermark2023}{misc}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=b16ba5c0c878b4814ffa8f48c6a75351}{%
+           family={Kirchenbauer},
+           familyi={K\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2a6fb7ce325e06d63c45f7a73a65438}{%
+           family={Geiping},
+           familyi={G\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=173faddd012890ed5bc9aa2d327d9df9}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Yuxin},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85053e14c4a72772970b91a572b9b9c1}{%
+           family={Katz},
+           familyi={K\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0487f51f12e1650c1ecbe85c3d103eeb}{%
+           family={Miers},
+           familyi={M\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b1fea9d27f10122cd27336b3dc68ea7}{%
+           family={Goldstein},
+           familyi={G\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{23f7998c3bc2b14602965aef4a639c91}
+      \strng{fullhash}{67f91da75ff16ea76274aedcc299ef62}
+      \strng{bibnamehash}{67f91da75ff16ea76274aedcc299ef62}
+      \strng{authorbibnamehash}{67f91da75ff16ea76274aedcc299ef62}
+      \strng{authornamehash}{23f7998c3bc2b14602965aef4a639c91}
+      \strng{authorfullhash}{67f91da75ff16ea76274aedcc299ef62}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{A Watermark for Large Language Models}
+      \field{month}{1}
+      \field{title}{A watermark for large language models}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb http://export.arxiv.org/abs/2301.10226v1
+      \endverb
+      \verb{url}
+      \verb http://export.arxiv.org/abs/2301.10226v1
+      \endverb
+    \endentry
+    \entry{roose2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=037398d2bbeb1d0726d6d94a2e969100}{%
+           family={Roose},
+           familyi={R\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The New York Times}%
+      }
+      \strng{namehash}{037398d2bbeb1d0726d6d94a2e969100}
+      \strng{fullhash}{037398d2bbeb1d0726d6d94a2e969100}
+      \strng{bibnamehash}{037398d2bbeb1d0726d6d94a2e969100}
+      \strng{authorbibnamehash}{037398d2bbeb1d0726d6d94a2e969100}
+      \strng{authornamehash}{037398d2bbeb1d0726d6d94a2e969100}
+      \strng{authorfullhash}{037398d2bbeb1d0726d6d94a2e969100}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The New York Times}
+      \field{month}{1}
+      \field{title}{Don't ban chatgpt in schools. teach with it.}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.nytimes.com/2023/01/12/technology/chatgpt-schools-teachers.html
+      \endverb
+      \verb{url}
+      \verb https://www.nytimes.com/2023/01/12/technology/chatgpt-schools-teachers.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

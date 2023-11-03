@@ -1,0 +1,4 @@
+\contentsline {section}{Highlighted Poem}{3}{section*.4}%
+\contentsline {subsection}{Explanatory Sentence}{5}{section*.5}%
+\contentsline {subsection}{Rationale Paragraph}{5}{section*.6}%
+\contentsline {section}{The Poem Without Highlights}{6}{section*.7}%

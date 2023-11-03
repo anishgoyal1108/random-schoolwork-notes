@@ -1,0 +1,55 @@
+\documentclass[14pt, aspectratio=43]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\input{chapters/preamble}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\newcommand{\x}{\boldsymbol{x}}
+\renewcommand{\a}{\boldsymbol{a}}
+\renewcommand{\b}{\boldsymbol{b}}
+\renewcommand{\c}{\boldsymbol{c}}
+\newcommand{\R}{\mathbb{R}}
+\title{Calculus Objectives Presentation}
+\subtitle{Intersections of vectors and vector-valued equations}
+\author[Anish \& Zachary]{Anish Goyal \and Zachary Cobb}
+\institute[GSMST]{
+    Gwinnett School of Math,%
+    \\%
+     Science, and Technology%
+} %You can change the Institution if you are from somewhere else
+\date{March 30, 2023}
+\titlegraphic { 
+\begin{tikzpicture}[overlay,remember picture]
+\node[right=1.5cm, above=1.5cm] at (current page.300){
+    \includegraphics[width= 0.2\textwidth]{images/Seal-of-GSMST.png}
+};
+\end{tikzpicture}
+}
+\setbeamertemplate{navigation symbols}{}
+\setbeamercovered{transparent}
+\begin{document}
+    
+    \frame{\titlepage}
+    
+    \begin{frame}{Table of Contents}
+        \begin{multicols}{2}
+        \tableofcontents
+        \end{multicols}
+    \end{frame}
+
+    \input{chapters/objective-24.tex}
+    \addtocontents{toc}{\newpage}
+    \input{chapters/objective-26.tex}
+
+    \section{Acknowledgments}
+    \frame{\sectionpage}
+        \begin{frame}{Acknowledgments}
+            \textcolor{orange}{The authors are sincerely grateful to their teacher Mr. Cook for his superior seminars and notes about these objectives in his Advanced Calculus II class.}
+        \end{frame}
+
+    \begin{frame}{}
+        \centering
+            \Huge\bfseries
+        \textcolor{orange}{Any questions?}
+    \end{frame}
+\end{document}

@@ -1,0 +1,188 @@
+---
+title: "5 Things You Need to Know About Russia"
+subtitle: "Introduction to CoGoPo Mini-Presentations"
+institute: Sunny Desai, Anish Goyal, Jason Kim, Jalen Rhodes
+format: 
+  revealjs:
+    theme: night
+    slide-number: true
+    show-slide-number: all
+    title-slide-style: pandoc
+    logo: Soviet_Red_Army_Hammer_and_Sickle.png
+    transition: slide
+    smaller: true
+    reference-location: document
+revealjs-plugins:
+  - attribution
+---
+
+# Domestic Politics
+
+## Strengthening of state control
+
+::: incremental
+-   The state has full control over the media and press ^[“Government and Society,” Encyclopædia Britannica (Encyclopædia Britannica, inc.), accessed January 18, 2023, https://www.britannica.com/place/Russia/Government-and-society.]
+
+-   All Western and anti-Putin rhetoric is stifled
+
+-   Criticism against the Kremlin is censored
+:::
+
+::: attribution
+Photo courtesy of [Alexei Druzhinin](https://www.belfercenter.org/sites/default/files/styles/featured_image_1280x515_/public/images/publication/feature/Putinism.jpg?h=b81c8d1a&itok=NrxRz5KN)
+:::
+
+![](images/putin.png)
+
+## Perestroika
+
+::: incremental
+-   The restructuring of the social and economic status quo towards a free market based society ^[“The Gorbachev Era: Perestroika and Glasnost,” Encyclopædia Britannica (Encyclopædia Britannica, inc.), accessed January 18, 2023, https://www.britannica.com/place/Russia/The-Gorbachev-era-perestroika-and-glasnost.]
+-   Initiated by Gorbachev in 1985
+-   Failed once Putin took over
+:::
+
+![](images/image-810274174.png){width="30%"}
+
+## Consolidating power
+
+::: rows
+::: {.row .fragment width="40%"}
+::: incremental
+-   United Russia Party
+    -   Political party put together by the oligarchs of Russia to support Putin
+-   Political opponents speaking against Putin are repressed and often jailed
+-   Only those that support Putin may serve in Parliament or act as President
+:::
+:::
+
+::: {.row .fragment width="60%"}
+![](images/image-708705467.png){width="500"} ![](images/image-1289479823.png){width="250" height="300"}
+:::
+:::
+
+# Economics
+
+## After the fall of the USSR
+
+::: incremental
+-   Russia dramatically reduced the state's role in economic development^[Sputnik International, “Russia's Economy under Vladimir Putin: Achievements and Failures,” Sputnik International (Sputnik International feedback@sputniknews.com+74956456601MIA „Rosiya Segodnya" 25260, March 1, 2008), https://sputniknews.com/20080301/100381963.html.]
+    -   Opened the Russian economy to foreign influence and privatization, especially in the oil sectors
+-   Russia's GDP increased by 50% following an economic depression in 1998
+:::
+
+![](images/image-1310044862.png)
+
+## Economic Reform
+
+::: incremental
+-   Boris Yeltsin had four main pillars to improve the Russian economy:^[Mark Kesselman, Joel Krieger, and William A. Joseph, Introduction to Comparative Politics: Political Challenges and Changing Agendas, 7th ed. (Boston, MA: Cengage Learning, 2016), 274-277.]
+    -   Lifting price controls
+    -   Encouraging privatization and entrepreneurship
+    -   Privatizing state-owned sectors
+    -   Opening the economy to international influences (such as investments from the International Monetary Fund)
+:::
+
+![](images/50cent.png){width="65%"}
+
+## Economy Today
+
+::: incremental
+-   Foreign trade has shifted towards the EU
+    -   Trading minerals in exchange for machinery and transport equipment
+-   Russia's economic freedom score is 56.1, making it the 113th freest economy^[“GDP (Current US$) - Russian Federation,” Data, accessed January 18, 2023, https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=RU.]
+:::
+
+![](images/image-563993961.png)
+
+# Foreign Affairs
+
+## The desire to be self sufficient
+::: incremental
+-   Assertive policies
+-   Seeking a great power role in the world
+-   Lessen the effect of globalization^[Olga Oliker et al., “What Explains Russia's Annexation of Crimea?,” RAND Corporation, September 22, 2015, https://www.rand.org/pubs/perspectives/PE144.html.]
+:::
+![](images/image-1301811267.png){width="447"}
+
+## Extending Russian influence
+::: incremental
+-   Buffer states
+-   Improve economic standing^[“Russian Foreign Policy,” Russian Foreign Policy | Center for Strategic and International Studies, February 2, 2016, https://www.csis.org/programs/russia-and-eurasia-program/archives/russian-foreign-policy.]
+-   Security
+:::
+
+![](images/change.png){width="80%"}
+
+## Competition with the United States
+::: incremental
+-   Believed Western integration would hurt Russia
+-   Implemented a bipartisan approach^[Robert Legvold James Collins, “Russia and Its Neighbors,” Carnegie Endowment for International Peace, accessed January 18, 2023, https://carnegieendowment.org/2009/02/24/russia-and-its-neighbors-event-1266.]
+
+![](images/competition.jpg)
+:::
+
+# Social Issues
+
+## Causes and examples
+::: {.panel-tabset}
+### Autocratic-like presidency
+#### Autocratic-like presidency
+::: incremental
+- Control of the United Russia Party^[“Human Rights Committee Considers Report of the Russian Federation in the Absence of a Delegation, Experts Raise Issues on the Persecution of Journalists and the Arrests of Protesters,” OHCHR, October 20, 2022, https://www.ohchr.org/en/news/2022/10/human-rights-committee-considers-report-russian-federation-absence-delegation-experts.]
+- Few political rights and civil liberties
+
+#### Examples...
+- Barring political opposition, voter fraud
+:::
+
+![](images/Russianfederalelections.png){width="65%"}
+
+### Media control
+#### Media control
+::: incremental
+- State owned television and radio broadcasting^[https://www.wilsoncenter.org/publication/social-status-and-ethnicity-russian-republics]
+- Limits on the Internet/social media
+:::
+
+![](images/mediacontrol.png){width="60%"}
+
+### Foreign agent law
+#### Foreign agent law
+::: incremental
+- For anyone with international support
+  - Participants followed carefully
+- Law expanded under Putin
+:::
+
+![](images/foreignagentlaw.png){height="40%"}
+
+### Civil unrest
+#### Civil unrest
+::: incremental
+- Attacks on ethnic minorities, journalists, political opposition, activists, etc.
+  - Prosecutions: arbitrary arrests and detentions^[“Russia: Freedom in the World 2022 Country Report,” Freedom House, accessed January 18, 2023, https://freedomhouse.org/country/russia/freedom-world/2022.]
+- War initiation (Ukraine)
+:::
+
+![](images/civilunrest.png){width="65%"}
+
+### Class distinctions
+#### Class distinctions
+::: incremental
+- Growing impoverished population
+  - This contradicts the Communist nature
+:::
+
+![](images/wealthspread.png){width="80%"}
+
+:::
+
+# Culture
+::: incremental
+- Follow the Nomenklatura and stay loyal
+- More than 100 minority languages spoken^[https://www.livescience.com/44154-russian-culture.html]
+:::
+
+![](images/EthnicCulture.png){width="80%"}
+

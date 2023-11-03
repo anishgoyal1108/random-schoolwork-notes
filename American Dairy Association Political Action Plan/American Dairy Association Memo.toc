@@ -1,0 +1,9 @@
+\babel@toc {american}{}\relax 
+\contentsline {section}{\numberline {1}One Paragraph Summary}{2}{}%
+\contentsline {section}{\numberline {2}Actions Taken Through Government Branches}{2}{}%
+\contentsline {subsection}{\numberline {2.1}The Executive Branch: The Presidency}{2}{}%
+\contentsline {subsection}{\numberline {2.2}The Executive Branch: The Bureaucracy}{3}{}%
+\contentsline {subsection}{\numberline {2.3}The Judicial Branch}{3}{}%
+\contentsline {subsection}{\numberline {2.4}The Legislative Branch}{4}{}%
+\contentsline {section}{\numberline {3}The Conclusion}{4}{}%
+\contentsline {section}{\numberline {4}Oral Testimony in Congress}{7}{}%

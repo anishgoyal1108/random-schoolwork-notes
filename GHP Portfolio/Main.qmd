@@ -1,0 +1,160 @@
+---
+title: "GHP Portfolio"
+subtitle: "Engineering: Computer Programming"
+author: "Anish Goyal"
+institute: "Gwinnett School of Math, Science, and Technology"
+format: 
+  revealjs:
+    incremental: true
+    theme: night
+    slide-number: true
+    show-slide-number: all
+    transition: slide
+    reference-location: document
+    navigation-mode: grid
+    controls-tutorial: true
+    smooth-scroll: true
+    scrollable: true
+---
+
+# About Me
+
+## Who Am I?
+
+Hello! My name is Anish Goyal, and I'm a Junior at GSMST. I am completely devoted to STEM and its applications on the world, especially using CS. Some of my hobbies are:
+
+-   Programming (Fairly obvious, but I decided I would include it anyway!)
+-   Hiking and camping in beautiful spots
+-   Playing the violin
+-   Mountain climbing
+-   Tinkering with Arduino/Raspberry Pi
+
+## What is my favorite IDE?
+
+My favorite IDE used to be Visual Studio Code because it was lightweight and had many customizable features. However, I have discovered NeoVIM and have been in love with it ever since (Emacs is too fancy for me, but I occasionally use it too).![](images/image-1888474821.png)
+
+# My Projects
+
+This is a list of all of my recent projects and accomplishments!
+
+## Polynomial Interpolation and K-Mean Mining to Predict Crime Rates
+
+(what a fancy way of saying machine learning)!
+
+![](images/image-1709360270.png)
+
+![](images/image-930504079.png)
+
+## Rofi Abbreviator, Speller, Pronouncer, Thesaurus, and Dictionary (RASPTD)
+
+A rofi GUI to help me with trivial English tasks.
+
+## Abbreviator
+
+{{< video abr.mp4 >}}
+
+## Speller
+
+{{< video spell.mp4 >}}
+
+## Pronouncer
+
+{{< video pro.mp4 >}}
+
+## Thesaurus
+
+{{< video antsyn.mp4 >}}
+
+## Dictionary
+
+-   Unfortunately, I forgot to record a demonstration video for the dictionary.
+
+-   My source that it exists? Trust me :)
+
+## LaTeX screenshotter
+
+A tool I developed to help me convert LaTeX math LaTeX source for my calculus notes.
+
+![](images/image-688925094.png)
+
+![](images/image-1242974014.png)
+
+## Let's test it!
+
+Let's convert the following image into LaTeX:
+
+![](images/image-810367049.png)
+
+## VamBan
+
+This is a kanban board editor in vim with vim keybindings.
+
+![](vambam.png)
+
+![](vambam2.png){width="614"}
+
+{{< video vambam.mp4 >}}
+
+## Algorithmic Programming
+
+![](images/image-101106889.png)
+
+![](images/image-1189088211.png)
+
+![](images/image-1403001381.png)
+
+![](images/image-323742731.png)
+
+# Other Work
+
+## CyberPatriot
+
+-   Under my leadership, CyberPatriot transformed from the least popular CS Club branch to the most popular CS Club branch.
+
+-   I conducted cybersecurity seminars that were higher quality than institutions that were actually being *formally educated* with cybersecurity programs.
+
+-   Our two gold teams got first and second place in the country. Our silver team got first place in the country. Our plat team got first place in the state.
+
+-   This is, by far, my most proudest achievement.
+
+    ![](images/image-452925360.png){width="236"}
+
+## Capture the Flag
+
+-   I also helped create Capture the Flag (CTF) seminars.
+
+-   Upcoming CTF competition at our school.
+
+-   Garnered interest in miscellaneous cybersecurity programs in our school (CyberStart America, picoCTF, etc.)
+
+![](images/image-1785825857.png)
+
+## Algorithmic/Advanced Programming
+
+-   In addition to my algorithmic programming outside of school, I also help the *Advanced/Algorithmic Programming* division of CS Club at my school.
+
+    -   I create slides for seminars, teach students basic algorithms and data structures
+
+    -   e.g. DFS, Dijkstra's, BFS, some LeetCode/Codeforces problems, preparation for CodeQuest
+
+-   Also aiding in the creation of an algorithmic programming competition to be held on March 30ths
+
+## Robotics
+
+-   FTC Red Robodragons 16796
+
+    -   Two-time state champions in the 2020-2021 and 2021-2022 seasons
+
+    -   My autonomous code got us to worlds, despite it being canceled due to COVID that year.
+
+-   Recipient of INSPIRE awards
+
+-   Experimented with different types of machine learning and camera visioning algorithms with Rezznet as the backbone
+
+    -   Conducted trials to see which ones performed the best
+
+![](robotics.jpg)
+
+![](robotics2.jpg)
+
+![](robotics3.jpg)

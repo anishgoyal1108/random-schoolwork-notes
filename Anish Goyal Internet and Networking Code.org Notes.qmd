@@ -1,0 +1,50 @@
+---
+title: "Internet and Networking Code.org Notes"
+format: pdf
+toc: true
+---
+## Anish Goyal \ Schepens \ Period 1 \ 01/12/2023{.unnumbered .unlisted} 
+
+## Packets, Routing, and Reliability
+
+### How is data transferred over the Internet?
+- Unlike common belief, data is not transferred over the Internet by allocating a single line of communication between a computer and a server.
+    - This would be very inefficient, as it would require a lot of lines to be allocated for each computer, and would make the Internet very slow.
+- Information does not follow a fixed path, it could vary from packet to packet.
+- Data is transferred over the Internet by using packets. A packet is a small unit of data that is sent over the Internet.
+- As part of the Internet Protocol, every router receives a packet and sends it to the next router along the shortest path using that packet's destination IP address (Djikstra's Algorithm).
+- Having multiple options for the packet to travel makes the Internet fault-tolerant; if one path is down, the packet can take another path.
+
+### How can you be sure that you will receive the data you requested?
+- TCP (Transmission Control Protocol) is a protocol that ensures that data is received correctly, and it manages the sending and receiving of packets.
+- TCP will ensure that all of the packets have arrived, and if they have not, it will request them again. It will also ensure that the packets are in the correct order.
+- TCP will acknowledge all of the packets have arrived by sending an acknowledgement packet back to the sender.
+- Until all of the packets are received, TCP will keep requesting the missing packets.
+
+## IP Addresses and DNS
+
+### The Internetworking Protocol
+- This protocol, invented by Bob Kahn and Vint Cerf in the seventies, created a standard for how computers should communicate with each other.
+- A protocol is a well-known set of rules and standards used to communicate between machines.
+- Before the internetworking protocol, there was no standardized way for computers to communicate with each other.
+
+### How do computers communicate with each other?
+- All of the different devices on the Internet have unique addresses called IP addresses
+- Your computer sends a message to another computer's IP address and it also sends it's origin address so the receiver knows where to send the response.
+
+### How do IP addresses work?
+- IP addresses are organized in a hierarchy
+- All of the information stored in an IP address is represented in bits (binary digits)
+- Traditional IPs are 32 bits long with 8 bits for each part of the address
+- The earlier numbers typically identify the country and region of the IP address/device
+- The later numbers typically identify the subnetwork and finally the address of the specific device
+- This system of addressing is called IPv4 with support for over 4 billion devices, but it is running out of addresses
+- We are in the middle of a multi-year transition to IPv6 which has 128 bits and supports over 340 undecillion devices
+
+### DNS (Domain Name System)
+- Pairs a domain name with an IP address
+- The domain name is the name of the website you are trying to access
+- The IP address is the address of the server that hosts the website
+- The DNS is a hierarchical system with the root servers at the top and the TLD servers at the bottom
+- These servers are public, however, which makes them susceptible to attack vectors such as DNS spoofing
+    - DNS spoofing is when a hacker is able to redirect your traffic to a malicious website by matching a domain name to the incorrect IP address

@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {}Act 1: The Steel Factory}{1}{section*.2}%
+\contentsline {subsection}{\numberline {}Scene 1: Steel Factory Background}{1}{section*.3}%
+\contentsline {section}{\numberline {}Act 2: Pinkertons vs Laborers }{2}{section*.4}%
+\contentsline {subsection}{\numberline {}Scene 1: Night Background}{2}{section*.5}%
+\contentsline {section}{\numberline {}Act 3: Frick's Downfall}{3}{section*.6}%
+\contentsline {subsection}{\numberline {}Scene 1: Steel Factory Background}{3}{section*.7}%
+\contentsline {subsection}{\numberline {}Scene 2: Ice Cream Shop Background}{3}{section*.8}%
+\contentsline {subsection}{\numberline {}Scene 3: Frick's Office Background}{4}{section*.9}%
+\contentsline {subsection}{\numberline {}Scene 4: Prison Background}{4}{section*.10}%
+\contentsline {subsection}{\numberline {}Scene 5: Money Background}{4}{section*.11}%

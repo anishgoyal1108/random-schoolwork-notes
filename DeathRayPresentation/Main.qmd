@@ -1,0 +1,124 @@
+---
+title: "The Dis-integrator"
+subtitle: "Death Ray Shell Design"
+author: "Anish Goyal, Zachary Cobb"
+institute: "Gwinnett School of Math, Science, and Technology"
+format: 
+  revealjs:
+    theme: night
+    slide-number: true
+    show-slide-number: all
+    transition: slide
+    reference-location: document
+    navigation-mode: grid
+    controls-tutorial: false
+    smooth-scroll: true
+    scrollable: true
+---
+
+# Diagrams
+
+## Initial Sketch
+
+![](img/initialsketch.png)
+
+## 4-View Isometric Drawing
+
+![](img/iso.png)
+
+![](img/iso2.png)
+
+![](img/iso3.png)
+
+![](img/iso4.png)
+
+## Orthographic Projection
+
+![](img/ortho.png)
+
+![](img/ortho2.png)
+
+![](img/ortho3.png)
+
+# Lining Materials
+
+::: columns
+::: {.column width="50%"}
+We decided to coat our death ray with silver. Silver coated lenses offer the highest reflectance in the visible-NIR spectrum of any metallic mirror[^1].
+:::
+
+::: {.column width="50%"}
+![](img/silver.png){height="120%"}
+:::
+:::
+
+[^1]: DiLallo, M. (2014, August 29). You can't have solar without silver. USA Today. Retrieved February 6, 2023, from https://www.usatoday.com/story/money/markets/2014/08/29/no-silver-no-solar/14756397/ 
+
+# The Math
+
+## Calculating the focus
+
+$$x^2 = 4ay$$
+
+$$
+27^2 = 4a \cdot 10.125
+$$
+
+$$
+4a=72
+$$
+
+$$
+a=18
+$$
+
+$$
+\text{Focus: } (h, k+a) \longrightarrow (0, 0+18) \longrightarrow (0, 18)
+$$
+
+Because the focus lies 18 meters from the center of the parabolic lens, the optimal target distance for our death ray is **59.055 feet.**
+
+## Calculating the surface area
+
+$$
+x^2 = 72y
+$$
+
+$$
+x = \sqrt{72y}
+$$
+
+$$
+SA = 2\pi \int_b^aR \sqrt{1+(f'(y))^2} \mathrm{d} y
+$$
+
+$$
+= 2\pi \int_0^{27}(\sqrt{72y})\sqrt{1+\left(\cfrac{5\sqrt{2}}{\sqrt{y}}\right)^2}\mathrm{d}y
+$$
+
+$$
+\approx 2587.102 \ \mathrm{m}^2 \ \cdot \cfrac{10.764 \ \mathrm{ft}^2}{1 \ \mathrm{m}^2} = 27847.566 \ \mathrm{ft}^2
+$$
+
+## Calculating the cost
+
+AutoDesk Inventor tells us that the density of silver in the lens is $0.15 \mathrm{g}/\mathrm{ft}^2$. It also tells us that the cost per gram of silver is \$0.76 USD. Therefore, we can calculate the unit cost and cost overall with the following:
+
+$$
+\frac{0.15 \ \mathrm{g}}{1 \ \mathrm{ft}^2} \ \cdot \ \frac{27847.566 \ \mathrm{ft}^2}{1} \ \cdot \ \frac{$0.76}{1 \ \mathrm{g}} = $3174.62
+$$
+
+# Final Product
+![](img/perspective.png)
+
+# Death Ray Manual
+- Diagram (First slide)
+- Most effective target distance: 59.055 ft
+- Material chosen: Silver
+  - Why we chose it: High reflectance 
+- Cost per square foot: $0.15
+- Surface area: 27847.566 $\mathrm{ft}^2$
+- Total cost: $3174.62
+
+
+
